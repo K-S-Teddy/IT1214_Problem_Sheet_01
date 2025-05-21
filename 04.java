@@ -24,7 +24,7 @@ class Ticket {
 
 
 class BookingSystem {
-    private Ticket[] tickets = new Ticket[10]; // max 10 seats
+    private Ticket[] tickets = new Ticket[10]; 
     private int count = 0;
 
     public void bookTicket(Ticket ticket) {
